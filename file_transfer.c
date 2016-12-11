@@ -42,8 +42,7 @@ static long long revert_endian(long long input)
 static void print_md5_result(unsigned char decrypt[16])
 {
     printf("md5 result:");
-    for(int i=0;i<16;i++)
-    {
+    for(int i = 0; i < 16; i++) {
         printf("%x",decrypt[i]);
     }
     printf("\n");
